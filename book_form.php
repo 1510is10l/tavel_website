@@ -17,7 +17,7 @@ if(isset($_POST['book']))
 
     mysqli_query($connection, $request);
 
-    header('location: book.php');
+    header('location: book.html');
 }
 else
 {
